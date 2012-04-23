@@ -14,7 +14,7 @@ def qsort(a):
         if last <= first:
             # A zero- or one-element array is already sorted. A more efficient implementation
             # would check whether the array was short (say, 5 or fewer items) and fall back
-            # on an insersion sort, which is faster than Quick Sort for small arrays.
+            # on an insertion sort, which is faster than Quick Sort for small arrays.
             return
 
         # We pick our pivot element from the middle of the array so that the sort
